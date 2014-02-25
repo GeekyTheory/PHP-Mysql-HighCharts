@@ -3,7 +3,7 @@ PHP-Mysql-HighCharts
 
 Repositorio del tutorial [PHP-MYSQL-HIGHCHARTS][2] de [Geeky Theory][3] creados por [Alejandro Esquiva][1]
 
-Este tutorial muestra un ejemplo de mostrar una graáfica de valores aleatorios en función del tiempo, para ello creamos un script que gestione una tabla de nuestra base de datos llamada random y otro archivo que recoga la información, la procese y la muestre
+Este tutorial muestra un ejemplo de mostrar una graáfica de valores aleatorios en función del tiempo, para ello creamos un script que gestione una tabla de nuestra base de datos llamada random y otro archivo que recoga la información, la procese y la muestre.
 
 Los tutoriales se encuentran en @GeekyTheory en el siguiente enlace:
 
