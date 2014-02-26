@@ -14,12 +14,12 @@ $rand->insertRandom();
 $rawdata = $rand->getAllInfo();
 
 //nos creamos dos arrays para almacenar el tiempo y el valor numérico
-$visitsArray;
+$valoresArray;
 $timeArray;
 //en un bucle for obtenemos en cada iteración el valor númerico y 
 //el TIMESTAMP del tiempo y lo almacenamos en los arrays 
 for($i = 0 ;$i<count($rawdata);$i++){
-    $visitsArray[$i]= $rawdata[$i][1];
+    $valoresArray[$i]= $rawdata[$i][1];
     //OBTENEMOS EL TIMESTAMP
     $time= $rawdata[$i][2];
     $date = new DateTime($time);
@@ -69,7 +69,7 @@ chartCPU = new Highcharts.StockChart({
                 <?php
                     for($i = 0 ;$i<count($rawdata);$i++){
                 ?>
-                data.push([<?php echo $timeArray[$i];?>,<?php echo $visitsArray[$i];?>]);
+                data.push([<?php echo $timeArray[$i];?>,<?php echo $valoresArray[$i];?>]);
                 <?php } ?>
                 return data;
             })()
