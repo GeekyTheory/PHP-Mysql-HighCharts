@@ -27,7 +27,7 @@ Los tutoriales se encuentran en @GeekyTheory en el siguiente enlace:
 	
 
 
-[1]: https://github.com/aesquiva
+[1]: https://github.com/alejandroesquiva
 [2]: http://geekytheory.com/php-mysql-highcharts-mostrar-grafica-dinamica-en-funcion-del-tiempo/
 [3]: http://geekytheory.com/
 
